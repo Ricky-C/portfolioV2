@@ -2,25 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Ricky-C | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Ricky C welcomes you', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hey there, my name is ',
+  name: 'Ricky Caballero',
+  subtitle: 'Web Development Extraordinaire',
+  cta: 'Onward',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "If you were to know me, you would know that I'm a creative. I'm passionate about music, sing in a metal band, and love fantasy novels/video games.",
+  paragraphTwo:
+    "Aside from that you would also know that I'm analytical. Some would say I over analyze but I consider that a good trait. I consider it more like deep thinking. It has served me well so far!",
+  paragraphThree:
+    'One thing I know for certain is that I love programming. It can be mentally stimulating and act as an outlet for creativity. Take a look through some of my work! I found them all interesting and hope you will too.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,30 +31,36 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'dcu.png',
+    title: 'DC Universe',
+    info:
+      'As a comic fan I feel honored to include DCU in my previous work. This project really tested how I perform under pressure. ',
+    info2:
+      'This store had a strict and short deadline to launch with the new DCU Streaming Service. The client, Warner Bros, was very happy with the outcome.',
+    url: 'https://shop.dcuniverse.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'harrypotter.png',
+    title: 'Harry Potter',
+    info:
+      "Who doesn't love Harry Potter! The interesting thing about this store was the amount of collaboration with the Design Team.",
+    info2:
+      'The communication between Dev and Design is very important to the efficiency and success of a website. With years of this type of experience, I feel very comfortable working with other teams to achieve the best possible outcome.',
+    url: 'https://www.harrypottershop.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'vsa.png',
+    title: 'VSA Partners',
+    info:
+      'I recently completed the new corporate site for VSA Partners. Built in React along with a headless CMS.',
+    info2:
+      'This project really demonstrates execution of modern and complex design. Take the time to go through the site and you will find plenty to be impressed by!',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
