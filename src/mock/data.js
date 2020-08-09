@@ -57,7 +57,7 @@ export const projectsData = [
     img: 'vsa.png',
     title: 'VSA Partners',
     info:
-      'I recently completed the new corporate site for VSA Partners. Built in React along with a headless CMS.',
+      'I recently completed the new corporate site for VSA Partners. Built in React with a NodeJS Headless CMS.',
     info2:
       'This project really demonstrates execution of modern and complex design. Take the time to go through the site and you will find plenty to be impressed by!',
     url: 'https://vsapartners.com/',
@@ -79,7 +79,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/enrique-caballero-779b3796/',
+      url: 'https://www.linkedin.com/in/ricky-caballero-779b3796/',
     },
     {
       id: nanoid(),
