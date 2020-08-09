@@ -31,11 +31,11 @@ const Header = () => {
             {subtitle || ''}
           </h1>
         </Fade>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="0px">
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Onward'}
+                {cta || ''}
               </Link>
             </span>
           </p>
