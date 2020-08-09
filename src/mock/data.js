@@ -60,7 +60,7 @@ export const projectsData = [
       'I recently completed the new corporate site for VSA Partners. Built in React along with a headless CMS.',
     info2:
       'This project really demonstrates execution of modern and complex design. Take the time to go through the site and you will find plenty to be impressed by!',
-    url: '',
+    url: 'https://vsapartners.com/',
     repo: '', // if no repo, the button will not show up
   },
 ];
