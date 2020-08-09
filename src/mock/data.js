@@ -24,7 +24,8 @@ export const aboutData = {
     "Aside from that you would also know that I'm analytical. Some would say I over analyze but I consider that a good trait. I consider it more like deep thinking. It has served me well so far!",
   paragraphThree:
     'One thing I know for certain is that I love programming. It can be mentally stimulating and act as an outlet for creativity. Take a look through some of my work! I found them all interesting and hope you will too.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/1nDc4xCtMifU_sQ9T2g6fQEsL44KjsnvhcigpWr7AjOE/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -66,9 +67,10 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Interested in getting in touch?',
+  btn: "Let's talk",
+  email:
+    'https://docs.google.com/forms/d/e/1FAIpQLSdiBh5ExHNQcyFf5uehzpEH66TaV6U2tIUOfFXsDZKgRrXT8g/viewform',
 };
 
 // FOOTER DATA
@@ -76,28 +78,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/enrique-caballero-779b3796/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Ricky-C',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

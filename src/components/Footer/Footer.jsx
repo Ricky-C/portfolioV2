@@ -16,7 +16,9 @@ const Footer = () => {
       <Container>
         <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>
-            <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
+            <i className="fa fa-angle-up fa-2x" aria-hidden="true">
+              <p className="hero-cta">Upward</p>
+            </i>
           </Link>
         </span>
         <div className="social-links">
@@ -26,7 +28,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                  href={url || ''}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -38,10 +40,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
-          </a>
+          © {new Date().getFullYear()} - Developed by{' Ricky Caballero '}
         </p>
 
         {isEnabled && <GithubButtons />}
