@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'dragon2.png',
   paragraphOne:
     "If you were to know me, you would know that I'm a creative. I'm passionate about music, sing in a metal band, and love fantasy novels/video games.",
   paragraphTwo:
